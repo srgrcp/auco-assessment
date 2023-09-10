@@ -7,6 +7,8 @@ import { api } from '@/swr/fetcher';
 import { Post } from '@/types/post';
 import { User } from '@/types/user';
 
+export const runtime = 'edge';
+
 const Home: FC = async () => {
   // Prerender posts and users
   const posts = await api<Post[]>('posts');

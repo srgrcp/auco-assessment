@@ -8,6 +8,8 @@ import { Post } from '@/types/post';
 import { User } from '@/types/user';
 import React, { FC, Suspense } from 'react';
 
+export const runtime = 'edge';
+
 export type PostDetailPageProps = {
   params: {
     slug: string;
