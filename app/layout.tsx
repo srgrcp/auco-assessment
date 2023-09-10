@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description:
     'Esta es una prueba técnica desarrollada por Sergio Carrillo, utilizando Next.js, tailwindcss y Cloudflare pages.',
   robots: 'index, follow',
+  alternates: {
+    canonical: 'https://auco-assessment.pages.dev/',
+  },
 };
 
 export default function RootLayout({
