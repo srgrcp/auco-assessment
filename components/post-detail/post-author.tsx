@@ -29,7 +29,7 @@ export const PostAuthor: FC<PostAuthorProps> = ({ userId }) => {
         style={{ width: 'calc(100% - 60px)' }}
       >
         <p className="font-semibold capitalize truncate">{user?.name}</p>
-        <p className="text-sm text-neutral-500 dark:text-neutral-400 truncate">
+        <p className="text-sm text-neutral-700 dark:text-neutral-400 truncate">
           {user?.email}
         </p>
       </div>

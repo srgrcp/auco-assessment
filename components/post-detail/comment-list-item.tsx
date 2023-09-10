@@ -30,7 +30,7 @@ export const CommentListItem: FC<CommentListItemProps> = ({ comment }) => {
           style={{ width: 'calc(100% - 60px)' }}
         >
           <h2 className="font-semibold capitalize truncate">{comment?.name}</h2>
-          <p className="text-sm text-neutral-500 dark:text-neutral-400 truncate">
+          <p className="text-sm text-neutral-800 dark:text-neutral-400 truncate">
             {comment?.email}
           </p>
         </div>

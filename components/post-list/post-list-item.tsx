@@ -44,7 +44,7 @@ export const PostListItem: FC<PostListItemProps> = ({ post }) => {
           style={{ width: 'calc(100% - 60px)' }}
         >
           <h2 className="font-semibold capitalize truncate">{post.title}</h2>
-          <p className="text-sm text-neutral-500 dark:text-neutral-400 truncate">
+          <p className="text-sm text-neutral-800 dark:text-neutral-400 truncate">
             {user?.name}
           </p>
         </div>
