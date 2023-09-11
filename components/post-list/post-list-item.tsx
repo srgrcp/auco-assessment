@@ -24,6 +24,7 @@ export const PostListItem: FC<PostListItemProps> = ({ post }) => {
       <Link
         href={`/post/${postSlug}`}
         className="absolute top-0 left-0 w-full h-full"
+        aria-label={post.title}
       />
 
       {/* Title section */}

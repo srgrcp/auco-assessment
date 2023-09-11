@@ -7,7 +7,15 @@ const nextConfig = {
         hostname: 'ui-avatars.com'
       }
     ]
-  }
+  },
+  experimental: {
+    mdxRs: true,
+  },
 }
 
-module.exports = nextConfig
+const withMDX = require('@next/mdx')({
+  options: {
+    providerImportSource: '@mdx-js/react',
+  },
+})
+module.exports = withMDX(nextConfig)
