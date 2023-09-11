@@ -1,3 +1,13 @@
+# Auco Assessment By Sergio Carrillo
+
+Esta prueba se desarrolló en Next.js 13, Tailwindcss, SWR, usando la API [JSONPlaceholder](https://jsonplaceholder.typicode.com/), tal como se sugirió en el enunciado y desplegado en Cloudflare como SSR: [https://auco-assessment.pages.dev/](https://auco-assessment.pages.dev/).
+
+Se tuvo muy en cuenta importantes cualidades como buenas prácticas, rendimiento, SEO y accesibilidad, todos los datos son pre-renderizados del lado del servidor, lo que permite que la página se pueda visualizar completa inmediatamente carga el HTML en el navegador, dando de esta forma, un gran impulso al rendimiento y permitiendo que los motores de busqueda puedan leer por completo la página.
+
+![PageSpeed Result](https://github.com/srgrcp/auco-assessment/raw/main/docs/speedpage.webp)
+
+## Documentación generada por CLI
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
